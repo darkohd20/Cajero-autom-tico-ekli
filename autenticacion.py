@@ -1,11 +1,19 @@
-usuario = "David" 
-contrasena = "145D"
-intentos = 3 
-
-
-
+usuario_autenticacion = "david" 
+intentos = 3
 while intentos > 0:
-    usuario: input ("ingrese usuario: ")
-    contrasena: input ("ingrese contraseña: ")
+    usaurio = input ("ingrese usuario: ")
     
-    if usuario == "David" and contrasena == "145D":
+    if usaurio == usuario_autenticacion: 
+        print ("USUARIO CORRECTO.")
+        print ("=======================")
+        print ("=TechBank Riwi digital=")
+        print ("====Bienvenido David===")
+        print ("=======================")
+        break
+    else: 
+        intentos-=1
+        print (f"usuario no encontrado.")
+    
+if intentos==0:
+    print ("USUARIO BLOQUEADO LLAME A LINEA DE ATENCION: 3214567890")
+    
