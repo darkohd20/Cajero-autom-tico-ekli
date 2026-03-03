@@ -5,5 +5,4 @@ n = input("Ingrese su nombre: ")
 os.system("clear")
 print("     TechBank Riwi Digital    ")
 print("Fecha:", datetime.now().strftime("%I:%M:%S %p"))
-print("Hola", n)
-print("¿Qué deseas hacer hoy?")         
+
