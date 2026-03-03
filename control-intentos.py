@@ -1,5 +1,4 @@
 def control_intentos():
-    usuario_autenticacion = "David"
 
     for i in range(3):
         pin = input("Ingrese PIN: ")
